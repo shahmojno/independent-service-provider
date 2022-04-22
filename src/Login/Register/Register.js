@@ -52,7 +52,7 @@ const Register = () => {
 
     return (
         <div className='register-form'>
-            <h2 style={{ textAlign: 'center' }}>Please Register</h2>
+            <h2 style={{ textAlign: 'center' }} className=' mt-4'>Please Register</h2>
             <form onSubmit={handleRegister}>
                 <input className='' type="text" name="name" id="" placeholder='Your Name' />
 
@@ -61,9 +61,9 @@ const Register = () => {
 
                 <input type="password" name="password" id="" placeholder='password' />
 
-                <input className='w-50 mx-auto btn btn-primary mt-2' type="submit" value="Register" />
+                <input className='w-50 mx-auto btn btn-primary mt-4 mb-4' type="submit" value="Register" />
             </form>
-            <p> Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link></p>
+            <p> Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none ' onClick={navigateLogin}>Please Login</Link></p>
 
         </div>
     );

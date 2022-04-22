@@ -14,9 +14,9 @@ const Pricing = () => {
         <div id='pricing' className='container'>
             <h2 className='text-primary text-center mt-5'>PRICING <span className='text-success
 '>PLAN</span></h2>
-            <h4> World is committed to making participation in the event a harassment <br />
+            <h5> World is committed to making participation in the event a harassment <br />
                 free experience for
-                everyone, regardless of level of experience </h4>
+                everyone, regardless of level of experience </h5>
 
             <div className="row">
                 {
