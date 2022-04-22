@@ -22,7 +22,7 @@ const Banner = () => {
                 />
                 <Carousel.Caption>
                     <h2>The healthy way of </h2>
-                    <p>life company</p>
+                    <h2>life company</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,8 +33,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Health is Wealth</h3>
-                    <p>Health is considered the most valuable and precious for every individual</p>
+                    <h2>Health is Wealth</h2>
+                    <h3>Health is considered the most valuable and precious for every individual</h3>
                 </Carousel.Caption>
             </Carousel.Item>
 

@@ -26,11 +26,6 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
 
-    // const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
-
-    // if (loading || sending) {
-    //     return <Loading></Loading>
-    // }
 
 
     if (user) {
@@ -60,17 +55,6 @@ const Login = () => {
         navigate('/register');
     }
 
-    const resetPassword = async () => {
-        const email = emailRef.current.value;
-        // if (email) {
-        //     await sendPasswordResetEmail(email);
-        //     toast('Sent email');
-        // }
-        // else {
-        //     toast('please enter your email address');
-        // }
-
-    }
 
 
 
@@ -80,13 +64,13 @@ const Login = () => {
 
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label></Form.Label>
                     <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
 
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
+                    <Form.Label></Form.Label>
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
                 <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
