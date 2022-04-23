@@ -8,7 +8,7 @@ const About = () => {
                 builds down every inch of your body and from <br />
                 body builders</p>
             <h2> Fitness Club, Gazipur Sadar </h2>
-            <h3> 0924008999 </h3>
+            <h3> Phone : 0924008999 </h3>
         </div>
     );
 };

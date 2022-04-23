@@ -8,7 +8,7 @@ const Price = ({ price }) => {
             <div className="card" style={{ width: "16rem" }}>
                 <h5 className="card-title fs-2 mt-3 text-primary" >{name}</h5>
                 <h2 className='fs-1 text-warning'>${fee}/Mon</h2>
-                {/* <img src={} className="card-img-top" alt="..." /> */}
+
                 <div className="card-body">
 
                     <h5 className="card-title">Get Free wifi</h5>
